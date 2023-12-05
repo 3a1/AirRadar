@@ -2,24 +2,23 @@
 
 To record ads-b frequency:
 ```bash
-$ hackrf_transfer -r --f 1090000000 -s 2000000 -p 0 -a 0 -l 40 -g 62
+$ hackrf_transfer -r data --f 1090000000 -s 2000000 -p 0 -a 0 -l 40 -g 62
 ```
 
 Change file encoding:
 ```bash
-$ sox --rate 2000000 --channels 1 --type sb - --type ub -
+$ sox --rate 2000000 --channels 1 --type sb data --type ub datasorted
 ```
 
 Get ads-b sygnals:
 ```bash
-$ ./ads-b data.txt
+$ ./ads-b datasorted
 ```
 
 Get airplanes position visualisation:
 ```bash
-$ ./dump1090 --ifile data.txt --net
+$ drawDefault.py data.txt
 ```
-
 
 <details>
            <summary>Photos</summary>
