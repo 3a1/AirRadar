@@ -20,10 +20,9 @@ Get airplanes position visualisation:
 $ ./dump1090 --ifile data.txt --net
 ```
 
+
 <details>
            <summary>Photos</summary>
-           <p>
-           https://github.com/Zebra64/RadarSky/assets/75133897/7817bb67-5763-4cfb-b647-642ac7910c09
-           https://github.com/Zebra64/RadarSky/assets/75133897/d5c90803-240f-4fc6-8fd5-7fadc95327e8
-           </p>
+           <p>![image](https://github.com/Zebra64/RadarSky/assets/75133897/7817bb67-5763-4cfb-b647-642ac7910c09)</p>
+           <p>![image](https://github.com/Zebra64/RadarSky/assets/75133897/d5c90803-240f-4fc6-8fd5-7fadc95327e8)</p>
 </details>
