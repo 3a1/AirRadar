@@ -23,5 +23,7 @@ $ ./dump1090 --ifile data.txt --net
 
 <details>
            <summary>Photos</summary>
-           <p>![image](https://github.com/Zebra64/RadarSky/assets/75133897/d5c90803-240f-4fc6-8fd5-7fadc95327e8)</p>
+           <p>
+           <img href="https://github.com/Zebra64/RadarSky/assets/75133897/d5c90803-240f-4fc6-8fd5-7fadc95327e8"></img>
+           </p>
 </details>
