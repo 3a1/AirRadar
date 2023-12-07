@@ -1,6 +1,6 @@
 # RadarSky
 
-![image](https://github.com/Zebra64/RadarSky/assets/75133897/fbce5d1c-6ff3-48e2-b67a-6233fa1a6c54| width=100)
+![image](https://github.com/Zebra64/RadarSky/assets/75133897/fbce5d1c-6ff3-48e2-b67a-6233fa1a6c54)
 
 
 To record ads-b frequency:
