@@ -5,7 +5,7 @@
 
 To record ads-b frequency:
 ```bash
-$ hackrf_transfer -r data --f 1090000000 -s 2000000 -p 0 -a 0 -l 40 -g 62
+$ hackrf_transfer -r data -f 1090000000 -s 2000000 -p 0 -a 0 -l 40 -g 62
 ```
 
 Change file encoding:
