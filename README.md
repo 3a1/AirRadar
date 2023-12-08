@@ -8,7 +8,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/License-MIT-green">
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-red">
+  <img src="https://img.shields.io/badge/Language-Python-blue">
 </div>
 
 <h1 align="center">
