@@ -11,7 +11,9 @@
   <img src="https://img.shields.io/badge/Language-C%2B%2B-red">
 </div>
 
-![image](https://github.com/Zebra64/RadarSky/assets/75133897/fbce5d1c-6ff3-48e2-b67a-6233fa1a6c54)
+<h1 align="center">
+  <a href="https://github.com/3a1/AirRadar"><img src="https://i.imgur.com/mcUeALj.png" alt="AirRadar" width="200"></a>
+</h1>
 
 
 To record ads-b frequency:
