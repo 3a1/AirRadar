@@ -12,7 +12,7 @@
 </div>
 
 <h1 align="center">
-  <a href="https://github.com/3a1/AirRadar"><img src="https://i.imgur.com/mcUeALj.png" alt="AirRadar" width="200"></a>
+  <a href="https://github.com/3a1/AirRadar"><img src="https://i.imgur.com/mcUeALj.png" alt="AirRadar"></a>
 </h1>
 
 
