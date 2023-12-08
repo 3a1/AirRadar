@@ -13,8 +13,10 @@ filename = sys.argv[1]
 
 fhandle = open(filename)
 
-map_center = [0, 0]  # Начальные координаты центра карты
-my_map = folium.Map(location=map_center, zoom_start=2)  # Зум по умолчанию
+## recommended to enter your city(in my case Warsaw) longitude and latitude ##
+map_center = [52.22977, 21.01178]  # Начальные координаты центра карты
+## in my case zoom 10 ##
+my_map = folium.Map(location=map_center, zoom_start=10)  # Зум по умолчанию
 
 latitude_val = 0
 longitude_val = 0
@@ -42,6 +44,8 @@ while True:
             bin_lat_even = frame_1_1[22:39]
             bin_long_even = frame_1_1[39:]
             bin_long_odd = frame_2_2[39:]
+            
+            ## sometimes smth in this check is crashing so i added try except blocks ##
             try:
                 crcheck(line1)
             except Exception as e:
@@ -54,6 +58,7 @@ while True:
             latitude_val = latitude(bin_lat_even, bin_lat_odd, 1, 0)
             longitude_val = longitude(bin_lat_even, bin_lat_odd, bin_long_even, bin_long_odd, 1, 0, latitude_val)
 
+            ## Data Validating, enter your coutry min-max latitude and longtitude for fix random(ghost) airplanes ##
             if(latitude_val < 49.29899 or latitude_val > 54.29899):
                 continue;
             if(longitude_val < 14.24712 or longitude_val > 23.89251):
@@ -75,6 +80,7 @@ while True:
             bin_long_even = frame_2_2[39:]
             bin_long_odd = frame_1_1[39:]
 
+            ## sometimes smth in this check is crashing so i added try except blocks ##
             try:
                 crcheck(line1)
             except Exception as e:
@@ -87,6 +93,7 @@ while True:
             latitude_val = latitude(bin_lat_even, bin_lat_odd, 1, 0)
             longitude_val = longitude(bin_lat_even, bin_lat_odd, bin_long_even, bin_long_odd, 1, 0, latitude_val)
 
+            ## Data Validating, enter your coutry min-max latitude and longtitude for fix random(ghost) airplanes ##
             if(latitude_val < 49.29899 or latitude_val > 54.29899):
                 continue;
             if(longitude_val < 14.24712 or longitude_val > 23.89251):
@@ -103,10 +110,12 @@ while True:
 
 
         print()
+        
 fhandle.close()
 my_map.save("map.html")
 
 script_directory = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(script_directory, 'map.html')
 
+## opening map in browser ##
 webbrowser.open('file://' + file_path, new=2)
