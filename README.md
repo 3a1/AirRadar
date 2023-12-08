@@ -36,6 +36,12 @@ Get airplanes position visualisation:
 $ drawDefault.py data.txt
 ```
 
+## Contribution
+
+- [shoumikdey](https://github.com/shoumikdey/ADSB-Position-Decoder)
+- [Junzi Sun](https://airmetar.main.jp/radio/ADS-B%20Decoding%20Guide.pdf)
+- [libmodes](https://github.com/watson/libmodes)
+
 <details>
            <summary>Photos</summary>
            <p>
