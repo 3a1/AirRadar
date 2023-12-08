@@ -7,7 +7,6 @@
 </h1>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/License-MIT-green">
   <img src="https://img.shields.io/badge/Language-Python-blue">
 </div>
 
