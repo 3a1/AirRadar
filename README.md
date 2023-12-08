@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/3a1/AirRadar"><img src="https://i.imgur.com/FrHyCNx.jpg" alt="AirRadar" width="200"></a>
+  <a href="https://github.com/3a1/AirRadar"><img src="https://i.imgur.com/wExC4Tc.png" alt="AirRadar" width="200"></a>
   <br>
   Evelion
   <br>
