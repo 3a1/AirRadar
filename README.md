@@ -1,4 +1,15 @@
-# RadarSky
+<h1 align="center">
+  <br>
+  <a href="https://github.com/Zebra64/Evelion"><img src="https://i.imgur.com/kC8emJ4.png" alt="Evelion" width="200"></a>
+  <br>
+  Evelion
+  <br>
+</h1>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/License-MIT-green">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-red">
+</div>
 
 ![image](https://github.com/Zebra64/RadarSky/assets/75133897/fbce5d1c-6ff3-48e2-b67a-6233fa1a6c54)
 
